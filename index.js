@@ -128,7 +128,7 @@ const cors = require('cors')
 app.use(cookieParser())
 
 app.use(cors({
-    origin: ["http://localhost:3000","http://localhost:3001"],
+    origin: "https://kanbanboard-b18z.onrender.com",
     credentials: true
 }))
 
