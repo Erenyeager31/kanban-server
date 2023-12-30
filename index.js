@@ -128,7 +128,7 @@ const cors = require('cors')
 app.use(cookieParser())
 
 app.use(cors({
-    origin: "https://kanbanboard-b18z.onrender.com",
+    origin: ["https://kanbanboard-b18z.onrender.com","https://kanban-board-31.web.app"],
     credentials: true
 }))
 
